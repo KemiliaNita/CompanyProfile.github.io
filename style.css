@@ -9,7 +9,7 @@
   --coffee-dark: #4a3728;
   --beige: #f5f2e9;
   --cream: #fdf6e3;
-  --white: #ffffff;
+  --white: #fff;
   --light-brown: #d4a574;
 }
 
@@ -119,7 +119,7 @@ h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: rgb(65, 57, 57);
   position: relative;
 }
 
