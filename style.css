@@ -109,7 +109,7 @@ h3 {
 
 /* Hero Section */
 .hero {
-  height: 100vh;
+  height: 100dvh;
   background:
     linear-gradient(rgba(111, 78, 55, 0.7), rgba(111, 78, 55, 0.7)),
     url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23F5F2E9" width="1200" height="800"/><circle fill="%23FDF6E3" opacity="0.8" cx="200" cy="200" r="300"/><circle fill="%23D4A574" opacity="0.3" cx="900" cy="500" r="250"/><path fill="%23F5F2E9" opacity="0.6" d="M0 400Q300 200 600 400T1200 400V800H0z"/></svg>');
@@ -540,13 +540,16 @@ html {
 /* Responsive Mobile */
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
+    position: static;
+    padding: 0 20px;
   }
 
   .hero p {
     font-size: 1rem;
     text-align: center;
+    padding: 0 20px;
   }
 
   .about-content {
